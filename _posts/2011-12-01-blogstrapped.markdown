@@ -18,7 +18,7 @@ This post is mainly about my plans with this blog. Nevertheless, a small overvie
 - Diggest tons of business, mba, entrepeneurship, and economic knowledge.
 - Work hard on the various ideas for products I have in mind.
 
-I've been blogging for some time in various places, most notably in 2004/2005 on my ill-fated attempt on starting a weblog based on Apple News[^foot1] and on my personal weblog. I decided that this blog deserves a new domain, a new raison d'etre, since it will also cover a new chapter in my life. Thus this new blog is meant to do three things:
+I've been blogging for some time in various places, most notably in 2004/2005 on my ill-fated attempt on starting a weblog based on Apple News[^foot1] and on my personal weblog. I decided that this blog deserves a new domain, a new raison d'etre, since it will also cover a new chapter in my life. Thus this new blog is meant to do three things.
 
 1. Help me hone my writing skills.
 2. Share my opinions and things I learn in an interesting way.
