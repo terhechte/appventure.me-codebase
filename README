@@ -4,4 +4,4 @@ It requires [Jekyll](https://github.com/mojombo/jekyll), a blog-aware static sit
 
 The code steals heavily from other Jekyll implementations / sites I found online. 
 
-
+The idea behind this was to have a blog that can be controlled in Ruby and that I can feed posts from various sources.
