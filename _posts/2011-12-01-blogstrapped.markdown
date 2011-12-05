@@ -11,7 +11,7 @@ Before I headed into the startup world, I worked as a Product Manager at [VIDERO
 The world hates change, yet it is the only thing that has brought progress.
 {% endblockquote %}
 
-This post is mainly about my plans with this blog. Nevertheless, a small overview of what my entrepreneurial plans are seems sound. For the past two years, the desire to break free grew in me. First an itch, then an urge, and finally a desire sine quo nun. During this timeframe, I contemplated oftentimes how I would use my days if my schedule was suddenly free of corporate agenda:
+This post is mainly about my plans with this blog. Nevertheless, a small overview of what my entrepreneurial plans are seems sound. For the past two years, the desire to break free grew in me. First an itch, then an urge, and finally a desire sine qua non. During this timeframe, I contemplated oftentimes how I would use my days if my schedule was suddenly free of corporate agenda:
 
 - Improve my C, Algorithm, and Math knowledge.
 - Hone my writing skills.
@@ -24,7 +24,7 @@ I've been blogging for some time in various places, most notably in 2004 / 2005 
 2. Share my opinions and things I learn in an interesting way.
 3. Report on my entrepeneurship adventure. 
 
-Even though I've been writing blog entries in the past, and even though I <s>do</s> did a lot of writing in my past job, I still feel like a kindergarten child clumsily glueing sentence fragments together in order beat a meaning out of them. But I understand that it is only experience gained through continuous and hard work, that results in pleasing results. In that vain, this post feels like it has no structure or meaning, like a collection of empty shells. I'll publish it nevertheless. One has to start somewhere, and there is no improvement without a start.
+Even though I've been writing blog entries in the past, and even though I <s>do</s> did a lot of writing in my past job, I still feel like a kindergarten child clumsily glueing sentence fragments together in order beat a meaning out of them. But I understand that it is only experience gained through continuous hard work, that results in pleasing results. In that vain, this post feels like it has no structure or meaning, like a collection of empty shells. I'll publish it nevertheless. One has to start somewhere, and there is no improvement without a start.
 
 
 [^foot1]: [StyleMac.com](http://www.stylemac.com). This is a story for another blog entry here.
