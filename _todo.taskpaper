@@ -11,10 +11,14 @@ First Version:
 - add the rake file @done
 - create a repository @done
 - host on github, publish on stylemac @done
-- add a daemon that auto-generates whenever there is a git update
-- test
+- add a daemon that auto-generates whenever there is a git update @done
+- test @done
 
 1.1:
+- the about-menu doesn't work right on the iPhone, redesign it
+- add footnotify again, make it work right.
+
+1.2:
 - Remove unneccesary functions from the plugins
 - Add sharing dialogue
 - Compile css / js into one gulp
