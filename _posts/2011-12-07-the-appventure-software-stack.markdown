@@ -10,4 +10,5 @@ List the software stack, that makes up my site.
 - cloud9 editor, for editing and creating posts online (vim mode!)
 - a daemon that imports / syncs posts from my tumblr, google+, quotevault accounts
 - a rake script that is called whenever there're git updates, and renders the files to html
-- and copies that over to my server
+- and on my server it is being checked out, curryied, and then rendered to static files with jekyll
+- it would be easy to export it from there to other servers (like S3) if necessary
