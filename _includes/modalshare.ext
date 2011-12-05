@@ -1,0 +1,28 @@
+<div id="sharingModalDialog" class="reveal-modal">
+    <h2>Share </h2>
+    <p class="lead">the Post <strong>'Blogstrapped.'</strong> on</p>
+    <div class="row">
+        <div class="four columns">
+            <a href="Javascript:share('facebook');" class="button small nice blue">Facebook</a>
+        </div>
+        <div class="four columns">
+            <a href="Javascript:share('googleplus');" class="button nice small blue">Google+</a>
+        </div>
+        <div class="four columns">
+            <a href="Javascript:share('twitter');" class="button nice small blue">Twitter</a>
+        </div>
+    </div>
+    <p class="lead">&nbsp;</p>
+    <div class="row">
+        <div class="four columns">
+            <a href="Javascript:share('instapaper');" class="button small nice blue">Instapaper</a>
+        </div>
+        <div class="four columns">
+            <a href="Javascript:share('linkedin');" class="button nice small blue">LinkedIn</a>
+        </div>
+        <div class="four columns">
+        </div>
+    </div>
+    <p class="lead">&nbsp;</p>
+    <a class="close-reveal-modal">&#215;</a>
+</div>

@@ -1,0 +1,22 @@
+{% include header.ext %}
+<div class="container">
+
+    <div class="row" id="header">
+        <div class="twelve columns">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eight columns">
+
+            {{content}}
+
+            {% include pagination.ext %}
+        </div>
+        {% include navigation.ext %}
+    </div>
+
+    {% include headbar.ext %}
+    {% include modalshare.ext %}
+</div>
+{% include footer.ext %}

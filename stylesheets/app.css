@@ -1,0 +1,256 @@
+/* Foundation v2.1.1 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+#header {
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+
+.textblock p {
+    text-align: justify;
+}
+
+.textblock ul li {
+    list-style-type: square;
+    margin-left: 25px;
+}
+.textblock ol li {
+    margin-left: 10px;
+}
+
+#statusbar {
+    width: 100%;
+    color: white;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0px 0px 6px #222;
+    padding: 0px;
+}
+
+#statusbar .mainBar {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555), color-stop(40%,#333), color-stop(100%,#000));
+    background-color: black;
+    opacity: 0.9;
+    padding: 0px;
+    margin: 0px;
+}
+
+#aboutBar {
+    background-color: #eee;
+    opacity: 0.97;
+    overflow: scroll;
+    height: 400px;
+}
+
+.projectRow {
+    font-size: 20px;
+    color: #666;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.mainBar h1 {
+    font-size: 18px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 9px;
+    background-image: url(/images/ez-trans.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.mainBar h1 a {
+    color: white !important;
+}
+.mainBar h3 {
+    font-size: 16px;
+    color: white;
+    margin-top: 9px;
+    font-weight: normal;
+}
+
+h3, h4 {
+    color: rgb(50, 50, 50);
+    font-size: 22px;
+}
+h4 {
+    margin-bottom: 23px;
+}
+
+h3 span {
+    color: #888;
+    text-decoration: underline;
+}
+
+h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}
+
+#projectsButton {
+    margin-top: 9px;
+}
+
+.blogentry {
+    margin-bottom: 50px;
+}
+
+p, li {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+blockquote {
+    position: relative;
+    padding: 10px;
+    background-color: #eee;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-left: 2px solid #999;
+}
+
+blockquote p {
+    color: #444;
+    margin-left: 15px;
+    line-height: 30px;
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size: 20pt;
+    float: left;
+    color: #888;
+    margin-top: 3px;
+}
+
+blockquote p::after {
+    content: '\201D';
+    font-size: 20pt;
+    color: #888;
+    line-height: .3;
+    vertical-align: -6px;
+}
+
+cite {
+    float: right;
+    display: block;
+}
+
+blockquote .permalink {
+    background-color: #fff;
+    color: #555;
+    float: right;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    font: normal normal normal 11px/normal Arial, sans-serif;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+}
+
+blockquote:hover .permalink  {
+    display: block;
+}
+
+.taglist {
+    padding-left: 10px;
+    margin-top: 2px;
+}
+
+.graybox {
+    border-radius: 5px 5px;
+    background-color: #eee;
+    color: #555;
+    font-size: 12px;
+    padding: 5px;
+}
+
+#navigation li {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation ul {
+    margin-bottom: 50px;
+}
+
+#navigation {
+    margin-top: 88px;
+}
+
+#navigation li a {
+    color: #777;
+}
+#navigation li a:hover {
+    color: #2A85E8;
+    text-decoration: underline;
+}
+#footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 12px;
+    color: #aaa;
+}
+#related_posts div {
+    margin-bottom: 10px;
+}
+#related_posts span {
+    color: #999;
+}
+h4.tag_page {
+    margin-bottom: 30px;
+}
+.date_seperator {
+    margin-bottom: 40px;
+}
+.footnotes p {
+    font-size: 11px;
+    line-height: 14px;
+    display: inline;
+}
+.footnotes ol li {
+    font-size: 11px;
+}
+.footnotes ol li > a {
+    float: right;
+    display: inline;
+    margin-right: 50px;
+}
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+

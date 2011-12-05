@@ -1,0 +1,26 @@
+# Main
+url:                http://appventure.me
+title:              Appventure.me - Benedikt Terhechte
+name:               Appventure.me
+email:              me@appventure.me
+description:         
+author:             Benedikt Terhechte
+
+# Jekyll Config
+permalink:   /:year/:month/:title.html
+safe:        false
+auto:        false
+server:      false
+server_port: 4000
+baseurl:    /
+paginate: 4
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+future:      true
+lsi:         true
+pygments:    false
+markdown:    maruku
+

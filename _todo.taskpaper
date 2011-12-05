@@ -1,0 +1,22 @@
+First Version:
+- get the sharing stuff fixed @done
+- setup the domain @done
+- insert google analytics code @done
+- get the sharing stuff working @done
+- add atom and rss feeds @done
+- test feeds @done
+- test in browsers @done
+- add favicon @done
+- activate lsi @done
+- add the rake file @done
+- create a repository
+- host on github, publish on stylemac
+- test
+
+1.1:
+- Remove unneccesary functions from the plugins
+- Add sharing dialogue
+- Compile css / js into one gulp
+- Include the ez logo as binary data in the css file
+- Revert to SASS for everything
+- set up two categories: entries (or something like that) and 'linked list', so that quick links also have their way here and one can choose to just view the one or the other.

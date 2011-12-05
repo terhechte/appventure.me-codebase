@@ -1,0 +1,25 @@
+{% include header.ext %}
+<div class="container">
+
+    <div class="row" id="header">
+        <div class="twelve columns">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eight columns">
+
+        {% for post in site.posts limit: 1 %}
+          {% include post.ext %}
+        {% endfor %}
+
+        {% include related.ext %}
+
+        </div>
+        {% include navigation.ext %}
+    </div>
+
+    {% include headbar.ext %}
+    {% include modalshare.ext %}
+</div>
+{% include footer.ext %}

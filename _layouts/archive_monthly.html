@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% for d in (1..31) reversed %}
+ {% if page.collated_posts[page.year][page.month][d] %}
+  {% for post in page.collated_posts[page.year][page.month][d] reversed %}
+
+    {% capture post_month %}{{post.date | date: "%m.%d"}}{% endcapture %}
+    {% if post_month != prev_post_month %}
+        <h3 class="date_seperator">{{post.date | date: "%A, %d %B %Y" | upcase}}</h3>
+    {% endif %}
+    
+    <div class="row blogentry">
+        <div class="eleven columns textblock">
+            <h3><a href="{{post.url}}">{{post.title}} <span>#</span></a></h3>
+            {{post.content|markdownify}}<br/>
+        </div>
+        {% include sharefoot.ext %}
+    </div>
+    
+    {% capture prev_post_month %}{{post_month}}{% endcapture %}
+
+  {% endfor %}
+ {% endif %}
+{% endfor %}

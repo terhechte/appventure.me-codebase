@@ -1,0 +1,3 @@
+{% if paginator %}
+{{paginator | pager_links}}
+{% endif %}

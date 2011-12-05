@@ -1,0 +1,7 @@
+<div class="row blogentry">
+    <div class="eleven columns textblock">
+        <h3><a href="{{post.url}}">{{post.title}} <span>#</span></a></h3>
+        {{post.content}}
+    </div>
+    {% include sharefoot.ext %}
+</div>

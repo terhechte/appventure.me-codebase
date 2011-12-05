@@ -1,0 +1,17 @@
+---
+layout: default
+title: Appventure.me
+---
+
+ {% for post in paginator.posts %}
+
+    {% capture post_month %}{{post.date | date: "%m.%d"}}{% endcapture %}
+    {% if post_month != prev_post_month %}
+        <h3 class="date_seperator">{{post.date | date: "%A, %d %B %Y" | upcase}}</h3>
+    {% endif %}
+    
+    {% include post.ext %}
+    
+    {% capture prev_post_month %}{{post_month}}{% endcapture %}
+  
+{% endfor %}

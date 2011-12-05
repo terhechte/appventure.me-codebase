@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<h4 class="tag_page">Posts tagged '{{page.tag}}'</h4>
+  {% for post in site.posts %}
+  {% for tag in post.tags %}
+  {% if tag == page.tag %}
+
+    {% capture post_month %}{{post.date | date: "%m.%d"}}{% endcapture %}
+    {% if post_month != prev_post_month %}
+        <h3 class="date_seperator">{{post.date | date: "%A, %d %B %Y" | upcase}}</h3>
+    {% endif %}
+    
+    <div class="row blogentry">
+        <div class="eleven columns textblock">
+            <h3><a href="{{post.url}}">{{post.title}} <span>#</span></a></h3>
+            {{post.content|markdownify}}<br/>
+        </div>
+        {% include sharefoot.ext %}
+    </div>
+    
+    {% capture prev_post_month %}{{post_month}}{% endcapture %}
+
+  {% endif %}
+  {% endfor %}
+  {% endfor %}

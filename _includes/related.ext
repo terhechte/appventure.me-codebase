@@ -1,0 +1,15 @@
+<div class="row">
+		<h5>Related Posts</h5>
+		{% for post in site.related_posts limit: 4 %}
+    <div class="row">
+        <div class="two columns">
+						<p>{{post.date | date: "%m/%d/%Y"}}</p>
+        </div>
+        <div class="nine columns taglist graybox">
+						<a href="{{post.permalink}}">{{post.title}}</a>
+        </div>
+    </div>
+		{% endfor %}
+</div>
+
+
