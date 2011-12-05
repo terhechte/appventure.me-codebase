@@ -4,7 +4,7 @@ require "date"
 
 site_url    = "http://appventure.me"   # deployed site url for sitemap.xml generator
 deploy_host = "appventure.me"
-deploy_path = "/apps/production/josediazgonzalez.com/default/public/_site"
+deploy_path = "/var/www_bene/appventure.me/appventure.me-codebase/_site"
 deploy_user = "deploy"
 port        = "4000"
 site        = "_site"
@@ -59,7 +59,7 @@ task :ping do
   begin
     require 'xmlrpc/client'
     puts '* Pinging ping-o-matic'
-    XMLRPC::Client.new('rpc.pingomatic.com', '/').call('weblogUpdates.extendedPing', 'Jose Diaz-Gonzalez' , "#{site_url}", "#{site_url}/atom.xml")
+    XMLRPC::Client.new('rpc.pingomatic.com', '/').call('weblogUpdates.extendedPing', 'Benedikt Terhechte' , "#{site_url}", "#{site_url}/atom.xml")
   rescue LoadError
     puts '! Could not ping ping-o-matic, because XMLRPC::Client could not be found.'
   end
