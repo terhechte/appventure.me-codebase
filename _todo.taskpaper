@@ -11,6 +11,7 @@ First Version:
 - add the rake file @done
 - create a repository @done
 - host on github, publish on stylemac @done
+- add a daemon that auto-generates whenever there is a git update
 - test
 
 1.1:
