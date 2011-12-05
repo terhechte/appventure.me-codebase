@@ -24,7 +24,7 @@ I've been blogging for some time in various places, most notably in 2004/2005 on
 2. Share my opinions and things I learn in an interesting way.
 3. Report on my entrepeneurship adventure. 
 
-Even though I've been writing blog entries in the past, and even though I <s>do</s> did a lot of writing in my past job, I still feel like a kindergarten child clumsily glueing sentence fragments together in order beat a meaning out of them. But I understand that it is only experience gained through continuous and hard work, that results in pleasing results. In that vain, this post feels like it has no structure or meaning, like a collection of empty shells. I'll publish it nevertheless. One has to start somewhere, and there is no improvement without a start. 
+Even though I've been writing blog entries in the past, and even though I <s>do</s> did a lot of writing in my past job, I still feel like a kindergarten child clumsily glueing sentence fragments together in order beat a meaning out of them. But I understand that it is only experience gained through continuous and hard work, that results in pleasing results. In that vain, this post feels like it has no structure or meaning, like a collection of empty shells. I'll publish it nevertheless. One has to start somewhere, and there is no improvement without a start..
 
 
 [^foot1]: [StyleMac.com](http://www.stylemac.com). This is a story for another blog entry here.
