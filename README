@@ -1,0 +1,7 @@
+# This is the Code that powers appventure.me #
+
+It requires [Jekyll](https://github.com/mojombo/jekyll), a blog-aware static site generator in Ruby.
+
+The code steals heavily from other Jekyll implementations / sites I found online. 
+
+
