@@ -48,7 +48,7 @@ Now, if you utilize this structure from Instagram in your Objective-C app, and w
 </pre></div>
 
 
-Since sending a message to nil objects is allowed in Objective-C, this could would run fine even if one of the keys does not exist.
+Since sending a message to nil objects is allowed in Objective-C, this would run fine even if one of the keys does not exist.
 Instead, the main problem here is a visual one: due to Objective-C's very elaborate syntax, adding one or two more hierarchies quickly results in a very cluttered appearance:
 
 
