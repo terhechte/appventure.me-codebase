@@ -9,10 +9,12 @@
         <dd><a href="/tag/{{tag|first}}">#{{tag|first}}</a></dd>
     {% endfor %}
     </dl>
+    <!--
     <dl class="vertical nice tabs">
         {% month_list %}
           <dd><a href="{{monthlink}}">{{monthstring}}</a></dd>
         {% endmonth_list %}
     </dl>
+    -->
     <!--<a href="#" class="button nice white">Subscribe</a>-->
 </div>

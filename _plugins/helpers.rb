@@ -24,6 +24,8 @@ module Liquid
 
     def markdownify(input)
       Markdown.new(input)
+      #markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :autolink => true, :space_after_headers => true)
+      #return markdown.render(input)
     end
 
   end

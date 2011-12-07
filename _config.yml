@@ -23,4 +23,5 @@ future:      true
 lsi:         true
 pygments:    false
 markdown:    maruku
+exclude:     README Rakefile
 
