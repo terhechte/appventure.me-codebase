@@ -109,11 +109,41 @@ Isn't that fantastic?
 
 What I did was that I created 8 different main macros, each responsible for one NSDictionary lookup hierarchy (AKeyPathDictionary - HKeyPathDictionary). The 'KeyPathDictionary' macro then gets the argument list and counts the amount of entries in there (the PP_ macros). Based on the result of this, it will call one of the aforementioned 8 main macros and will expand the arguments into it.
 
-I also tried this on an eight-level dictionary with the following benchmarks:
+
+#### Category Approach (Update)
+
+[Mayoff on HN]() suggests using a category with a va_list approach to solve this problem. I like his solution, so I'm including it here as a reference. It has the added benefit that one could extend it to also support retrieving individual NSArray entities during traversal. I.e.: 'data.friends.data.0.name' to access the first friends name. So, without further ado:
+
+
+<div class="hilite_me_code"><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">@interface</span> <span style="color: #0e84b5; font-weight: bold">NSDictionary</span> <span style="color: #002070; font-weight: bold">(objectForKeyList)</span>
+<span style="color: #666666">-</span> (<span style="color: #902000">id</span>)<span style="color: #002070; font-weight: bold">objectForKeyList:</span>(<span style="color: #902000">id</span>)key, ...;
+<span style="color: #007020; font-weight: bold">@end</span>
+
+<span style="color: #007020; font-weight: bold">@implementation</span> <span style="color: #0e84b5; font-weight: bold">NSDictionary</span> <span style="color: #002070; font-weight: bold">(objectForKeyList)</span>
+
+<span style="color: #666666">-</span> (<span style="color: #902000">id</span>)<span style="color: #002070; font-weight: bold">objectForKeyList:</span>(<span style="color: #902000">id</span>)key, ...
+{
+  <span style="color: #902000">id</span> object <span style="color: #666666">=</span> self;
+  va_list ap;
+  va_start(ap, key);
+  <span style="color: #007020; font-weight: bold">for</span> ( ; key; key <span style="color: #666666">=</span> va_arg(ap, <span style="color: #902000">id</span>))
+      object <span style="color: #666666">=</span> [object <span style="color: #002070; font-weight: bold">objectForKey:</span>key];
+  
+  va_end(ap);
+  <span style="color: #007020; font-weight: bold">return</span> object;
+}
+<span style="color: #007020; font-weight: bold">@end</span>
+</pre></div>
+
+
+#### Benchmarks
+
+I also tried these implementations on an eight-level dictionary with the following benchmarks:
 
 Time  | Implementation      |
 -----:|:--------------------|
 30.69 | KVO Access          |
+ 2.79 | Category Approach   |
  2.35 | Direct Dictionary   |
  2.28 | Preprocessor Macro  |
 
