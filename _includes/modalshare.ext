@@ -1,6 +1,6 @@
 <div id="sharingModalDialog" class="reveal-modal">
     <h2>Share </h2>
-    <p class="lead">the Post <strong>'Blogstrapped.'</strong> on</p>
+    <p class="lead">the Post <strong id="modalSharingTitle"></strong> on</p>
     <div class="row">
         <div class="four columns">
             <a href="Javascript:share('facebook');" class="button small nice blue">Facebook</a>

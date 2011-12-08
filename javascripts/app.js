@@ -9,6 +9,7 @@ url = "";
 function showShareDialog(_title, _url) {
   title = _title;
   url = _url;
+  $('#modalSharingTitle').html("'"+_title+"'")
 $('#sharingModalDialog').reveal();
 }
 function share(type) {
