@@ -257,6 +257,13 @@ border-radius: 3px;
 div.highlight pre {
     font-family: Courier, Monaco !important;
 }
+
+.leftbanner {
+    margin-top: 250px;
+}
+.leftbanner img {
+    border: 0px;
+}
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
