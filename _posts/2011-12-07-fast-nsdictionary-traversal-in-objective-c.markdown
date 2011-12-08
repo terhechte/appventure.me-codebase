@@ -72,7 +72,7 @@ As the Apple Docs state, NSDictionaries contain a KVO extension which registers 
 [aDictionary valueForKeyPath: @"data.likes.data"];
 {% endhighlight %}
 
-Fantastic isn't it? In fact, that's how I did most of my more complex dictionary lookups in [InstaDesk](http://www.instadesk-app.com) until I recently realized that that could be a terrible performance hog. You see, KVO allows to do fantastic things, but that comes at a certain implementation overhead since much of it's magic is added dynamically at runtime. So I wondered how much worse KVO access is against raw dictionary access. To find that out, I wrote this benchmark.
+Fantastic isn't it? In fact, that's how I did most of my more complex dictionary lookups in [InstaDesk](http://www.instadesk-app.com) until I recently realized that that could be a terrible performance hog. You see, KVO allows to do fantastic things, but that comes at a certain implementation overhead since much of it's magic is added dynamically at runtime. So I wondered how much worse KVO access is against raw dictionary access. To find that out, [I wrote this benchmark](https://gist.github.com/1444444).
 
 <script extsrc="https://gist.github.com/1444444.js?file=slow_kvo_dictionary_example1.m">//</script>
 
@@ -91,7 +91,7 @@ Which is kinda sad though, as the KVO access really looks cleaner and is easier 
 
 This is a tough problem. The [C preprocessor](http://gcc.gnu.org/onlinedocs/cpp/) is not turing complete and thus rather limited if you want to do more than replace code or conduct simple logical branching [^foot3]. One could, of course, write a macro that spits out C code that does the nitty gritty. But that was not what I wanted. I wanted the end result to be unrolled 'objectForKey:' messages and not calls to a C function that iterates over a string or list. 
 
-Even though the preprocessor doesn't allow us to iterate or loop over lists or strings, it does have support for variadic argument lists (__VA_ARGS__), and, through a neat little hack, allows to count the [number of items in such a variadic list](http://groups.google.com/group/comp.std.c/browse_thread/thread/77ee8c8f92e4a3fb/346fc464319b1ee5?pli=1). Given these constraints I had an idea on how solve the problem at hand:
+Even though the preprocessor doesn't allow us to iterate or loop over lists or strings, it does have support for variadic argument lists (__VA_ARGS__), and, through a neat little hack, allows to count the [number of items in such a variadic list](http://groups.google.com/group/comp.std.c/browse_thread/thread/77ee8c8f92e4a3fb/346fc464319b1ee5?pli=1). Given these constraints [I had this idea on how solve the problem at hand](https://gist.github.com/1444513).
 
 <script extsrc="https://gist.github.com/1444513.js?file=slow_kvo_dictionary_example2.m">//</script>
 
