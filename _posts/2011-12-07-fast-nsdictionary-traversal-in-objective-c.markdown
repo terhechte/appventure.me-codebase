@@ -78,6 +78,13 @@ Fantastic isn't it? In fact, that's how I did most of my more complex dictionary
 
 <script extsrc="https://gist.github.com/1444444.js?file=slow_kvo_dictionary_example1.m">//</script>
 
+
+Time  | Implementation      |
+-----:|:--------------------|
+11.93 | KVO Access          |
+ 1.53 | Direct Dictionary   |
+
+
 Shocking! 12 seconds against 1.5 seconds is roughly 8 times as fast. This is a situation in which the added syntax advantages of KVO loose hands down against the performance disadvantages.
 
 Which is kinda sad though, as the KVO access really looks cleaner and is easier to write. This got me thinking. Would it be possible, using the C preprocessor, to write a bit of macro magic that takes in a list of keys and outputs the complex and cluttered Objective-C NSDictionary code? 
