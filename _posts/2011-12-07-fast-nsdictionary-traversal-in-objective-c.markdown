@@ -74,7 +74,7 @@ As the Apple Docs state, NSDictionaries contain a KVO extension which registers 
 </pre></div>
 
 
-Fantastic isn't it? In fact, that's how I did most of my more complex dictionary lookups in [InstaDesk](http://www.instadesk-app.com) until I recently realized that that could be a terrible performance hog. You see, KVO allows to do fantastic things, but that comes at a certain implementation overhead since much of it's magic is added dynamically runtime. So I wondered how much worse KVO access is against raw dictionary access. To find that out, I wrote this benchmark.
+Fantastic isn't it? In fact, that's how I did most of my more complex dictionary lookups in [InstaDesk](http://www.instadesk-app.com) until I recently realized that that could be a terrible performance hog. You see, KVO allows to do fantastic things, but that comes at a certain implementation overhead since much of it's magic is added dynamically at runtime. So I wondered how much worse KVO access is against raw dictionary access. To find that out, I wrote this benchmark.
 
 <script extsrc="https://gist.github.com/1444444.js?file=slow_kvo_dictionary_example1.m">//</script>
 
