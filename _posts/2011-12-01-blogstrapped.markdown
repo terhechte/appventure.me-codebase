@@ -2,6 +2,7 @@
 layout: post
 title: Blogstrapped.
 tags: [planning, entrepeneurship]
+keywords: [entrepeneurship, videro, fear, unknown, stylemac]
 ---
 Finally. I started the adventure. As of this month I am an entrepeneur trying to work hard on bringing my ideas to life. I left a good paying job and the omnipresent feeling of security for uncertainty, adventure, and an unknown future. On top of that, I am unsure whether I am truly an entrepeneur by heart or if I accidentally fell for the unrealistic hope that founding, nurturing, and succeeding in a startup is easy. Nevertheless, here I am.
 

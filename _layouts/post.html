@@ -9,11 +9,17 @@
     <div class="row">
         <div class="eight columns">
 
-        {% for post in site.posts limit: 1 %}
-          {% include post.ext %}
-        {% endfor %}
+        {% assign post = page %}
+         
+        <div class="row blogentry">
+            <div class="eleven columns textblock">
+                <h3>{{post.title}}</h3>
+                {{content}}
+            </div>
+            {% include sharefoot.ext %}
+        </div>
 
-        {% include related.ext %}
+         {% include related.ext %}
 
         </div>
         {% include navigation.ext %}

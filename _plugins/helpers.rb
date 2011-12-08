@@ -21,11 +21,15 @@ module Liquid
         html_truncatewords(text)
       end
     end
-
+    # Convert a Markdown string into HTML output.
+    #
+    # input - The Markdown String to convert.
+    #
+    # Returns the HTML formatted String.
     def markdownify(input)
-      Markdown.new(input)
-      #markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :autolink => true, :space_after_headers => true)
-      #return markdown.render(input)
+      site = @context.registers[:site]
+      converter = site.getConverterImpl(Jekyll::MarkdownConverter)
+      converter.convert(input)
     end
 
   end
