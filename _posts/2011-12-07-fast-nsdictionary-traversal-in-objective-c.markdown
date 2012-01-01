@@ -117,7 +117,7 @@ What I did was that I created 8 different main macros, each responsible for one 
 
 #### Category Approach (Update)
 
-[Mayoff on HN]() suggests using a category with a va_list approach to solve this problem. I like his solution, so I'm including it here as a reference. It has the added benefit that one could extend it to also support retrieving individual NSArray entities during traversal. I.e.: 'data.friends.data.0.name' to access the first friends name. So, without further ado:
+[Mayoff on HN](http://news.ycombinator.org/item?id=3326606) suggests using a category with a va_list approach to solve this problem. I like his solution, so I'm including it here as a reference. It has the added benefit that one could extend it to also support retrieving individual NSArray entities during traversal. I.e.: 'data.friends.data.0.name' to access the first friends name. So, without further ado:
 
 {% highlight objc %}
 @interface NSDictionary (objectForKeyList)
@@ -156,7 +156,7 @@ As you can see, the gap only widens with more levels in your dictionaries.
 
 #### Outlook
 
-I switched almost all multilevel dictionary access in the upcoming [InstaDesk](http://www.instadesk-app.com) 1.3.8 with this code and it increased the overall speed in a tangible manner. Especially during object creation.
+I switched almost all multilevel dictionary access in the upcoming [InstaDesk](http://www.instadesk-app.com) <del>1.3.8</del> [1.4](http://www.instadesk-app.com) with this code and it increased the overall speed in a tangible manner. Especially during object creation.
 
 [^foot1]: At least the NSDictionary.h header says 1994-2009, though I think that development of it began even earlier at [NeXTSTEP](http://en.wikipedia.org/wiki/NeXTSTEP).
 [^foot2]: Actually, in many situations you'd probably abstract the data in a real object with ivars and properties which invalidate most of what I'm explaining here since, property access in Objective-C is far faster than dictionary access. However, there're quite a lot of situations where you need to access multilevel dictionaries, and in these cases the solution outlined here will help you a lot (performance-wise).
