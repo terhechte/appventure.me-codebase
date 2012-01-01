@@ -101,6 +101,13 @@ task :post do
   open_in_editor(file, editor)
 end
 
+desc 'create a post with a name'
+task :create do
+  title, slug = get_title
+  file = File.join(File.dirname(__FILE__), '_posts', slug + '.markdown')
+  create_blank_post(file, title)
+end
+
 desc 'List all draft posts'
 task :drafts do
   puts `find ./_posts -type f -exec grep -H 'published: false' {} \\;`

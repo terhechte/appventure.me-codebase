@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+import sys
+import os
+if len(sys.argv)<=1:
+    print "usage: ./create 'title of post'"
+    sys.exit()
+os.system("rake create TITLE='%s'" % (sys.argv[1]))
