@@ -12,7 +12,7 @@ in lightbox mode working via calls from the Javascript API.
 I finally got it working and decided to my findings on here, to help others
 with similar problems.
 
-You can see the end result of my work [http://www.instadesk-app.com](here)
+You can see the end result of my work [here](http://www.instadesk-app.com)
 (click on the 'Screencast' button).
 
 [Sublimevideo](http://sublimevideo.net) is a cloud services that offers a complete HTML5 ready video
