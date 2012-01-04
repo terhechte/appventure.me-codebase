@@ -264,6 +264,16 @@ div.highlight pre {
 .leftbanner img {
     border: 0px;
 }
+
+/* inline code */
+code {
+    font-family: Monaco, Courier, Monospace;
+    color: #111;
+    display: inline;
+    font-size: 14px;
+    background-color: #eee;
+}
+
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
