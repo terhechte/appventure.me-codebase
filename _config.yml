@@ -9,9 +9,6 @@ author:             Benedikt Terhechte
 # Jekyll Config
 permalink:   /:year/:month/:title.html
 safe:        false
-auto:        false
-server:      false
-server_port: 4000
 baseurl:    /
 paginate: 4
 

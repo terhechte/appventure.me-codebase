@@ -71,7 +71,7 @@ Based on the examples on the site, I tried this code:
 </script>
 {% endhighlight %}
 
-{% highlight Javascript %}
+{% highlight javascript %}
 function play() {
     sublimevideo.play("videotrailer");
 }
@@ -95,7 +95,7 @@ So I changed the code to this, and it worked right away.
 </script>
 {% endhighlight %}
 
-{% highlight Javascript %}
+{% highlight javascript %}
 function play() {
     sublimevideo.play("videotrailer");
 }
