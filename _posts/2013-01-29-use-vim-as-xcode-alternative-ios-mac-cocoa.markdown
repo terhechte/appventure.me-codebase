@@ -3,7 +3,7 @@
   tags: cocoa objective-c ios
   layout: post
 ---
-I really like Vim. I've been using it for many years now. However, since I do most of my coding in Objective-C, I could oftentimes only use Vim for HTML / Javascript / Python / Script projects. This is because I got so used to the fantastic auto completion in XCode. 
+I really like [Vim](http://www.vim.org). I've been using it for many years now. However, since I do most of my coding in Objective-C, I could oftentimes only use Vim for HTML / Javascript / Python / Script projects. This is because I got so used to the fantastic auto completion in XCode. 
 
 Objective-C is a rather verbose and elaborate language, so the XCode completion is very valuable in everyday coding. Consider this line of code:
 {% highlight objc %}
