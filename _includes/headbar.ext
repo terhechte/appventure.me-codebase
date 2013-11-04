@@ -14,27 +14,25 @@
             <div class="three projectRow columns">
                 <h3>About</h3>
                 <div class="textblock">
-                    <p>I am Benedikt, I make software, enjoy good design, like electronic music production, and studied communication science. <br/><br/>I have worked at a couple of startups and recently started my own. Here, I chronicle my experiences and share my opinions.</p>
+                    <p>I play around with iOS apps, web apps, Vim or Emacs+Evil, Objective-C, Scala, Lisps, electronic music, and I post interesting tidibits here. </p>
                 </div>
             </div>
             <div class="three projectRow columns">
                 <h3>Resources</h3>
                 <p>Some things directly or indirectly related to me:</p>
                 <ul class="disc">
+                    <li><a href="http://www.photodesk-app.com">InstaDesk</a> The best Instagram Client for the Mac</li>
                     <li><a href="http://github.com/terhechte">My Github account</a><br />Browse some of the stuff I did and released</li>
-                    <li><a href="http://www.stylemac.com">StyleMac.com</a><br /> Former blog, now hosts my various Mac, iPad and iPhone apps.</li>
-                    <li><a href="http://fuktastic.tumblr.com/">Fuktastic</a> Curated and interesting tech links</li>
-                </ul>
-            </div>
-            <div class="three projectRow columns">
-                <h3>Projects</h3>
-                <p>These are some of the projects that I am currently working on</p>
-                <ul class="disc">
-                    <li><a href="http://www.instadesk-app.com">InstaDesk</a> The best Instagram Client for the Mac</li>
-                    <li><a href="http://www.clarity-app.com">Clarity</a> A Mac Facebook Client</li>
                     <li><a href="http://www.quotevault.org">Quotevault</a> Share &amp; Collect quotes</li>
                 </ul>
             </div>
+            <!--<div class="three projectRow columns">
+                <h3>Projects</h3>
+                <p>These are some of the projects that I am currently working on</p>
+                <ul class="disc">
+                    <li><a href="http://www.clarity-app.com">Clarity</a> A Mac Facebook Client</li>
+                </ul>
+            </div>-->
         </div>
     </div>
 </div>
